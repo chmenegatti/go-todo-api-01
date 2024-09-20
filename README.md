@@ -25,7 +25,7 @@ Na pasta raíz do projeto, execute o comando abaixo para instalar o framework Gi
 ```bash
 go get -u github.com/gin-gonic/gin
 ```
-#### Passo 3: Criando os Controladores
+#### Passo 1: Criando os Controladores
 
 Os controladores vão lidar com a lógica das requisições HTTP. Para fins de teste, vamos criar os esboços dos controladores que serão implementados nas próximas partes do projeto.
 
@@ -95,7 +95,7 @@ Aqui, criamos um grupo de rotas `/todos` que mapeia cada endpoint para um métod
 
 #### Passo 3: Configurando o Servidor HTTP
 
-Vamos começar criando o servidor HTTP usando o **Gin**.
+Vamos criar o servidor HTTP usando o **Gin**.
 
 **main.go**:
 ```go
